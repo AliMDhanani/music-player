@@ -7,13 +7,14 @@ import Loader from "../components/Loader";
 export default function Home() {
   const router = useRouter();
   const { status, data: session } = useSession({
+    required: true,
     onUnauthenticated() {
       router.push("/auth/signin");
     },
   });
 
   if (status === "loading") {
-    return <Loader />
+    return <Loader />;
   }
 
   return (
