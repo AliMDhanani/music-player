@@ -13,6 +13,12 @@ module.exports = {
         port: '',
         pathname: '/xkacau',
       },
+      {
+        protocol: 'https',
+        hostname: 'rb.gy',
+        port: '',
+        pathname: '/y9mwtb',
+      },
     ],
   },
 }
