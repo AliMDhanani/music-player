@@ -24,7 +24,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      body: ["Andada Pro", "serif"],
+      body: ['Rubik', "sans-serif"],
       sans: ["ui-sans-serif", "system-ui"],
     },
   },
